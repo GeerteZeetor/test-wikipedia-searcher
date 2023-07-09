@@ -1,4 +1,4 @@
-.search-bar {
+.searchBar {
   display: flex;
   justify-content: space-between;
   width: 320px;
@@ -8,8 +8,8 @@
   box-shadow: 0px 2px 4px #dfdfdf;
 }
 
-.search-bar:hover {
-  box-shadow: 0px 3px 5px #c0c0c0;
+.searchBar:hover {
+  box-shadow: 0 3px 5px #c0c0c0;
 }
 
 .input {
@@ -38,7 +38,7 @@ svg {
 }
 
 .button:hover {
-  background-color: #ececec;
+  background-color: #f1f1f1;
 }
 
 .input:disabled,
