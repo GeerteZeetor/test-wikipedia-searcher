@@ -1,0 +1,17 @@
+.results[data-isloading = true] {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  opacity: 0;
+}
+
+.results[data-isloading = false] {
+  transition: all 0.3s ease;
+  opacity: 1;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
