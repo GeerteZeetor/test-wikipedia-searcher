@@ -1,6 +1,4 @@
 .searchBar {
-  display: flex;
-  justify-content: space-between;
   width: 320px;
   padding: 5px;
   border: 1px solid #f4f4f4;
@@ -18,7 +16,7 @@
   border: none;
   padding: 0.5rem;
   outline-color: #1c1b1b;
-  margin-right: 1px;
+  margin-right: 4px;
 }
 
 .button {
@@ -49,5 +47,8 @@ svg {
 .error {
   color: #ef0000;
   margin-left: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
